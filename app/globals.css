@@ -5,11 +5,36 @@
   --foreground: #171717;
 }
 
+@layer utilities {
+  .trim-text {
+    line-height: 1.2;
+    margin-top: -0.2em;
+    margin-bottom: -0.2em;
+    vertical-align: text-top;
+  }
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-finnick-gray-lightest: #efefef;
+  --color-finnick-gray-light: #cccccc;
+  --color-finnick-gray-medium: #666666;
+  --color-finnick-gray: #999999;
+  --color-finnick-black: #000000;
+  --color-finnick-white: #ffffff;
+  --color-finnick-green: #0e8a4a;
+  --color-finnick-blue: #0e8aff;
+  --color-finnick-yellow: #cc554a;
+  --color-finnick-red: #ff004a;
+
+
+  --tracking-1: 0em;
+  --tracking-2: 0.02em;
+
 }
 
 @media (prefers-color-scheme: dark) {
