@@ -26,8 +26,6 @@ const RatingCard: React.FC<RatingCardProps> = ({
   const { ref, width } = useContainerWidth();
   const isWide = width >= 370;
 
-  console.log(isWide, width)
-
   return (
     <div
       ref={ref}
